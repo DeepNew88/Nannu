@@ -28,8 +28,8 @@ class Config:
         self.SESSION2 = getenv("SESSION2", None)
         self.SESSION3 = getenv("SESSION3", None)
 
-        self.SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Exampurss_official")
-        self.SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Exampurrs")
+        self.SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/GiftBuyings")
+        self.SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/TheFriendsChatting")
 
         self.AUTO_LEAVE: bool = getenv("AUTO_LEAVE", "False").lower() == "true"
         self.AUTO_END: bool = getenv("AUTO_END", "False").lower() == "true"
@@ -44,8 +44,8 @@ class Config:
             if url and "batbin.me" in url
         ]
         self.DEFAULT_THUMB = getenv("DEFAULT_THUMB", "https://te.legra.ph/file/3e40a408286d4eda24191.jpg")
-        self.PING_IMG = getenv("PING_IMG", "https://files.catbox.moe/o5i5oz.jpg")
-        self.START_IMG = getenv("START_IMG", "https://files.catbox.moe/ncv2zt.jpg")
+        self.PING_IMG = getenv("PING_IMG", "https://files.catbox.moe/zk5w01.jpg")
+        self.START_IMG = getenv("START_IMG", "https://files.catbox.moe/7wojv6.jpg")
 
     VIKKY = [
     "💞", "🦋", "🔍", "🧪", "🦋", "⚡️", "🔥", "🦋", "🎩", "🌈", "🍷", "🥂", "🦋", "🥃", "🥤", "🕊️",
